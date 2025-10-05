@@ -1,10 +1,10 @@
-
+import Image from 'next/Image';
+import Logo from '../../public/logo.png';
 export default function Topo(){
     return(
         <header>
-            <h1>Loja de Oculos</h1>
+            <Image src={Logo} alt="logomarca" />
             <nav>
-                <a href="#capa">Capa</a>
                 <a href="#produtos">Produtos</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#contatos">Contatos</a>
