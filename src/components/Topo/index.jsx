@@ -1,5 +1,5 @@
 import Image from 'next/Image';
-import Logo from '../../public/logo.png';
+import Logo from '@/publico/logo.png';
 export default function Topo(){
     return(
         <header>

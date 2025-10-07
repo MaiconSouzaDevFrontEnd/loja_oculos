@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import style from '@/styles/globals.css';
+import style from "@/styles/globals.css";
 import Topo from '@/components/Topo';
 import SecaoCapa from '@/components/SecaoCapa';
 import SecaoProdutos from '@/components/SecaoProdutos';
@@ -14,14 +14,13 @@ export default function Home(){
                 <title>Loja de Oculos</title>
                 <meta name="description" content="Loja de Oculos, Aqui voce encontra o melhor Oculos" />
                 <meta name="viewport" content="width=device-width, inicial-scale=1" />
-                
             </Head>
             <main className="style.body"> 
                  <Topo />
                 {/*<SecaoCapa />
-                <SecaoProdutos />
+                <SecaoProdutos />*/
                 <SecaoSobre />
-                <SecaoContatos />
+                /*<SecaoContatos />
                 <Rodape /> */}
             </main>
         </>
