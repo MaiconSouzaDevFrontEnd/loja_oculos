@@ -16,12 +16,12 @@ export default function Home(){
                 <meta name="viewport" content="width=device-width, inicial-scale=1" />
             </Head>
             <main className="estilos.body"> 
-                 <Topo />
-                {/*<SecaoCapa />
-                <SecaoProdutos />*/
+                <Topo />
+                <SecaoCapa />
+                <SecaoProdutos />
                 <SecaoSobre />
-                /*<SecaoContatos />
-                <Rodape /> */}
+                <SecaoContatos />
+                <Rodape />
             </main>
         </>
     );
