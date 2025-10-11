@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import estilos from "@/styles/Home.module.css";
+import estilos from "@/styles/Home.module.css";     
 import Topo from '@/components/Topo';
 import SecaoCapa from '@/components/SecaoCapa';
 import SecaoProdutos from '@/components/SecaoProdutos';
@@ -15,7 +15,7 @@ export default function Home(){
                 <meta name="description" content="Loja de Oculos, Aqui voce encontra o melhor Oculos" />
                 <meta name="viewport" content="width=device-width, inicial-scale=1" />
             </Head>
-            <main className="estilos.body"> 
+            <main className={estilos.body}> 
                 <Topo />
                 <SecaoCapa />
                 <SecaoProdutos />

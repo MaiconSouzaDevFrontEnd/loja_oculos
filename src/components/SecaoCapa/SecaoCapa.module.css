@@ -1,0 +1,28 @@
+.SecaoCapa{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 85vh;
+    background-image: url('../../publico/capa.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-left: 15%;
+    text-align: left;
+    width: 30%;
+}
+
+.container p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    text-transform: uppercase;
+}

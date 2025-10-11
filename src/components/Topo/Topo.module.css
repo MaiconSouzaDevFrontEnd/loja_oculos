@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #f8f9fa;
-    padding: 30px;
+    padding: 20px;
 }
 
 .logomarca{
@@ -15,4 +15,9 @@
 .navmenu{
     display: flex;
     gap: 20px;
+}
+
+.navmenu a{
+    text-decoration: none;
+    color: #333;
 }
