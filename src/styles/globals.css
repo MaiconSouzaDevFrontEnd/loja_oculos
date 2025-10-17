@@ -14,9 +14,3 @@
   box-sizing: border-box;
   font-family: 'Tahoma', sans-serif;
 }
-
-.body{
-    max-width:10px;
-    width: 100%;
-    background-color: red;
-}

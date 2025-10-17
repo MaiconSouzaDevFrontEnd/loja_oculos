@@ -8,12 +8,14 @@ import styles from './Topo.module.css';
 export default function Topo(){
     return(
         <header className={styles.topo}>
-            <Image src={Logo} alt="logomarca" className={styles.logoMarca} />
-            <nav className={styles.navmenu}>
-                <Link href="#produtos">Produtos</Link>
-                <Link href="#sobre">Sobre</Link>
-                <Link href="#contatos">Contatos</Link>
-            </nav>
+            <div className={styles.container}>
+                <Image src={Logo} alt="logomarca" className={styles.logoMarca} />
+                <nav className={styles.navmenu}>
+                    <Link href="#produtos">Produtos</Link>
+                    <Link href="#sobre">Sobre</Link>
+                    <Link href="#contatos">Contatos</Link>
+                </nav>
+            </div>    
         </header>    
         );
     }

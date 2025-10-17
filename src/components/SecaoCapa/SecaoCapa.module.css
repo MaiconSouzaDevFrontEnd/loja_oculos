@@ -1,4 +1,4 @@
-.SecaoCapa{
+.secaoCapa{
     display: flex;
     justify-content: left;
     align-items: center;
@@ -9,19 +9,21 @@
     color: white;
     text-align: center;
 }
-
 .container {
-    margin-left: 15%;
+    margin: auto;
+    width: 1000px;
+}
+.textoCapa {
     text-align: left;
-    width: 30%;
+    width: 40%;
 }
 
-.container p {
+.textoCapa p {
     font-size: 1.5rem;
     margin: 0;
 }
 
-.container h1 {
+.textoCapa h1 {
     font-size: 3rem;
     margin: 10px 0;
     text-transform: uppercase;
