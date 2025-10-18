@@ -1,19 +1,19 @@
-.secaoSobre{
-    width: 100%;
-    margin: 5em auto;
-    padding: 20px;
-    border-radius: 8px;
+.container{
+    max-width: 1000px;
+    margin: auto;
 }
 
 .containerSobre{
-    margin: auto;
-    width: 80%;
-    display: grid;
-    padding: 2rem;
-    margin-top: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));    
-    gap: 2rem;
-    align-items: center;
+    text-align: center;
+}
+
+.containerSobre h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+    }   
+.containerSobre p{
+    margin-bottom: 40px;
+
 }
 
 .img{
