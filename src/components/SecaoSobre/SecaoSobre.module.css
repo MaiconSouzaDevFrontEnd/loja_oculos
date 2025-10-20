@@ -1,23 +1,44 @@
 .container{
     max-width: 1000px;
     margin: auto;
-}
-
-.containerSobre{
     text-align: center;
 }
 
-.containerSobre h2{
+.container h2{
     margin-bottom: 20px;
     font-size: 28px;
-    }   
-.containerSobre p{
-    margin-bottom: 40px;
+}   
 
+.container p{
+    margin-bottom: 40px;
+}
+
+.containerSobre{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerSobre article {
+    flex: 1 1 50%;
 }
 
 .img{
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.containerSobre div{
+    flex: 1 1 50%;
+}
+
+.containerSobre div h3{
+    font-size: 2em;
+    margin-bottom: .4em;
+}
+
+.containerSobre div p{
+    font-size: 1em;
 }
